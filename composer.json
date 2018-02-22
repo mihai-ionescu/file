@@ -31,10 +31,16 @@
             "email": "me@kelunik.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mihai-ionescu/parallel"
+        },
+    ],
     "require": {
         "amphp/amp": "^2",
         "amphp/byte-stream": "^1",
-        "amphp/parallel": "^0.2"
+        "amphp/parallel": "dev-tvg"
     },
     "require-dev": {
         "amphp/phpunit-util": "^1",

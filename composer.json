@@ -31,6 +31,33 @@
             "email": "me@kelunik.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/uri"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/parallel"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/dns"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/artax"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/socket"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mihai-ionescu/file"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
         "amphp/amp": "^2",
         "amphp/byte-stream": "^1",
